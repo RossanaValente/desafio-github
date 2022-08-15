@@ -261,7 +261,7 @@ border-radius: 50px;
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 0px;
-  background-color: #F5F5F5;
+  background-color: linear-gradient(#FFCF71,#FFFFFF);
   }
   
 .astro-foto { grid-area: 1 / 1 / 2 / 2; }
@@ -273,7 +273,7 @@ border-radius: 50px;
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: px;
-  background-color: #f8f2e7;
+  background-color:#f8f2e7;
 }
 
 .confe-titulo { grid-area: 1 / 1 / 2 / 4; }
@@ -486,11 +486,6 @@ footer {
   background: #FFCF71;;
   opacity: 0.5;
   border-radius: 50px;
-  }
-
-  .boton:hover {
-    background-color: #ce740d;
-    color: white;
   }
 
 
